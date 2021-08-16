@@ -84,7 +84,6 @@ const questions = () => {
     ]);
   };
   
-//   questions().then(answers => console.log(answers));
   // // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
@@ -104,8 +103,6 @@ function init() {
 
   
 }
-     // .then(answers => console.log(answers))
-        // .then(promptProject)
-        // .then(projectAnswers => console.log(projectAnswers));
-// // Function call to initialize app
+  
+// Function call to initialize app
 init()
