@@ -3,6 +3,8 @@ const fs = require('fs');
 
 const inquirer = require('inquirer');
 
+const generateMarkdown = require('./utils/generateMarkdown')
+
 
 // Questions
     // github username
@@ -11,7 +13,6 @@ const inquirer = require('inquirer');
     // description
     //  installation (ask to provide installation)
 
-// const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 // const questions = [];
@@ -91,12 +92,17 @@ function writeToFile(fileName, data) {
           return console.log(err);
         }
       
-        console.log("Success! Your README.md file has been generated")
     });
 }
 // // TODO: Create a function to initialize app
 function init() {
-    questions()
+    questions().then((inquirerAnswers) => {
+        console.log(inquirerAnswers);
+        writeToFile ("README.md", generateMarkdown({inquirerAnswers}))
+        console.log("Success! Your README.md file has been generated")
+    })
+
+  
 }
      // .then(answers => console.log(answers))
         // .then(promptProject)
