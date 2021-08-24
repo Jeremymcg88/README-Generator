@@ -2,8 +2,9 @@
 const fs = require('fs');
 
 const inquirer = require('inquirer');
+const { userInfo } = require('os');
 
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 
 // Questions
@@ -97,7 +98,8 @@ function writeToFile(fileName, data) {
 function init() {
     questions().then((inquirerAnswers) => {
         console.log(inquirerAnswers);
-        writeToFile ("README.md", generateMarkdown({inquirerAnswers}))
+        const markDown = generateMarkdown(inquirerAnswers, userInfo);
+        writeToFile ("README.md", generateMarkdown({ ...inquirerAnswers}))
         console.log("Success! Your README.md file has been generated")
     })
 
