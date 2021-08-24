@@ -1,8 +1,8 @@
-# generate ReadMe.md
+# generate ReadMe
 undefined
 ## Description
 
-creating a ReadMe utilizing node JS and inquirer
+generating a readme utilizing node and inquirer packages
 
 
 ## Table of Contents
