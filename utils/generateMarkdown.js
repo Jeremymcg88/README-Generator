@@ -1,6 +1,7 @@
 // function that returns a license badge based on which license is passed in
 const renderLicenseBadge = (confirmLicense, license) => {
-  if (confirmLicense === false | license === 'none') {
+  console.log('WE HIT THE RENDER lisecne badge part', confirmLicense, license)
+  if (confirmLicense === false || license === 'none') {
       return '';
   } 
   if (license === 'Apache') {
@@ -10,6 +11,7 @@ const renderLicenseBadge = (confirmLicense, license) => {
       return `![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 `;
   }  else if (license === 'GNU GPLv3') {
+    console.log('WE HIT THE IFF FOR GNU GPLv3')
       return `![GNU GPLv3](https://img.shields.io/badge/license-GNU%20GPLv3-red.svg)
 `;
   }  else if (license === 'MIT') {

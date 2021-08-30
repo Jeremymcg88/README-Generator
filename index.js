@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 const inquirer = require('inquirer');
-const { userInfo } = require('os');
+// const { userInfo } = require('os');
 
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
@@ -21,7 +21,7 @@ const questions = () => {
     return inquirer.prompt([
       {
         type: 'input',
-        name: 'github',
+        name: 'username',
         message: 'What is your Github username? (Required. No @ needed.)',
         validate: gitNameInput => {
             if (gitNameInput) {
@@ -76,6 +76,17 @@ const questions = () => {
     name: 'installation'
 },
 {
+    type: 'input',
+    message: "Who is contributing",
+    name: 'contributions'
+},
+{
+    type: 'input',
+    message: "What are the tests",
+    name: 'test'
+},
+
+{
     type: 'list',
     message: "Choose a license for your project.",
     choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
@@ -98,7 +109,7 @@ function writeToFile(fileName, data) {
 function init() {
     questions().then((inquirerAnswers) => {
         console.log(inquirerAnswers);
-        const markDown = generateMarkdown(inquirerAnswers, userInfo);
+        const markDown = generateMarkdown(inquirerAnswers);
         writeToFile ("README.md", generateMarkdown({ ...inquirerAnswers}))
         console.log("Success! Your README.md file has been generated")
     })
