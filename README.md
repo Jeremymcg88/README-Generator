@@ -54,3 +54,12 @@ npm node
 ## Questions
 
 If you have any questions about the repo, open an issue or contact me directly at jeremy.mcguirk@gmail.com. You can find more of my work at [Github](https://github.com/jeremymcg88).
+
+## Step by step video walkthrough 
+
+-- screencastify here --
+
+## Repo
+
+https://github.com/Jeremymcg88/README-Generator 
+
