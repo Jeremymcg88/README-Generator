@@ -1,8 +1,9 @@
-# Generate ReadMe
-undefined
+# generate ReadMe
+![MIT](https://img.shields.io/badge/license-MIT-green.svg)
+
 ## Description
 
-Generating a ReadMe using node and inquirer
+generating a readme utilizing node and inquirer
 
 
 ## Table of Contents
@@ -24,24 +25,24 @@ Generating a ReadMe using node and inquirer
 
 To install necessary dependencies, run the following command:
 
-npm node and npm i inquirer
+npm init and npm i inquirer
 
 
 ## Usage
 
 To use this application, run the following command:
 
-node 
+node index.js
 
 
 ## License
 
-This project is licensed under the MIT License license.
+This project is licensed under the MIT license.
 
 
 ## Contributing
 
-Everyone
+Jeremyt
 
 
 ## Tests
@@ -54,12 +55,3 @@ npm node
 ## Questions
 
 If you have any questions about the repo, open an issue or contact me directly at jeremy.mcguirk@gmail.com. You can find more of my work at [Github](https://github.com/jeremymcg88).
-
-## Step by step video walkthrough 
-
--- screencastify here --
-
-## Repo
-
-https://github.com/Jeremymcg88/README-Generator 
-
