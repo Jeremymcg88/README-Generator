@@ -1,8 +1,8 @@
-# GenerateReadMe
+# Generate ReadMe
 undefined
 ## Description
 
-generating a readme using node and inquirer
+Generating a ReadMe using node and inquirer
 
 
 ## Table of Contents
@@ -24,14 +24,14 @@ generating a readme using node and inquirer
 
 To install necessary dependencies, run the following command:
 
-install npm node and npm i inquirer
+npm node and npm i inquirer
 
 
 ## Usage
 
 To use this application, run the following command:
 
-undefined
+node 
 
 
 ## License
@@ -48,17 +48,9 @@ Everyone
 
 To run tests, run the following command:
 
-npm node test
+npm node
 
 
 ## Questions
 
 If you have any questions about the repo, open an issue or contact me directly at jeremy.mcguirk@gmail.com. You can find more of my work at [Github](https://github.com/jeremymcg88).
-
-## Walkthrough demonstration
-
--- insert screencastify -- 
-
-## Repository 
-
-git@github.com:Jeremymcg88/README-Generator.git

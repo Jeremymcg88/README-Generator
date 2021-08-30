@@ -25,7 +25,7 @@ const renderLicenseBadge = (confirmLicense, license) => {
 
 // function that returns the license link
 const renderLicenseLink = (confirmLicense, license) => {
-  if (confirmLicense === false | license === 'none') {
+  if (confirmLicense === false || license === 'none') {
       return '';
   }
 
@@ -36,7 +36,7 @@ const renderLicenseLink = (confirmLicense, license) => {
 
 // function that returns the license section of README
 const renderLicenseSection = (confirmLicense, license) => {
-  if (confirmLicense === false | license === 'none') {
+  if (confirmLicense === false || license === 'none') {
       return '';
   }
 

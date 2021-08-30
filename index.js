@@ -1,9 +1,6 @@
 // // TODO: Include packages needed for this application
 const fs = require('fs');
-
 const inquirer = require('inquirer');
-// const { userInfo } = require('os');
-
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
 
@@ -75,6 +72,14 @@ const questions = () => {
     message: "If applicable, describe the steps required to install your project for the Installation section.",
     name: 'installation'
 },
+
+{
+    type: 'input',
+    message: "To use this application, run the following command:",
+    name: 'usage'
+},
+
+
 {
     type: 'input',
     message: "Who is contributing",
