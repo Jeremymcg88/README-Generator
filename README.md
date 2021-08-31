@@ -3,7 +3,7 @@
 
 ## Description
 
-Generating a ReadMe using node and inquirer
+Generating a ReadMe utilizing node and inquirer
 
 
 ## Table of Contents
@@ -45,7 +45,7 @@ This project is licensed under the MIT license.
 
 ## Contributing
 
-Open source. Everyone enjoy!
+Open Source. Everyone enjoy!
 
 
 ## Tests
@@ -66,3 +66,6 @@ Location of walkthrough can be found here https://drive.google.com/file/d/1BtISf
 ## Repository
 
 https://github.com/Jeremymcg88/README-Generator
+
+![ScreenShot](./assets/GenerateReadMe.png)
+![ScreenShot](./assets/GenerateReadMe2.png)
