@@ -1,9 +1,9 @@
-# generate ReadMe
+# Generate ReadMe
 ![MIT](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Description
 
-generating a readme utilizing node and inquirer
+Generating a ReadMe using node and inquirer
 
 
 ## Table of Contents
@@ -20,6 +20,9 @@ generating a readme utilizing node and inquirer
 
 * [Questions](#questions)
 
+* [Repository](#Repository)
+
+* [Walkthrough-Video](#Walkthrough-Video)
 
 ## Installation
 
@@ -42,16 +45,24 @@ This project is licensed under the MIT license.
 
 ## Contributing
 
-Jeremyt
+Open source. Everyone enjoy!
 
 
 ## Tests
 
 To run tests, run the following command:
 
-npm node
+npm -v
 
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at jeremy.mcguirk@gmail.com. You can find more of my work at [Github](https://github.com/jeremymcg88).
+If you have any questions about the repo, open an issue or contact me directly at jeremy.mcguirk@gmail.com. You can find more of my work at [Github](https://github.com/jeremymcg88).;
+
+## Walkthrough-Video
+
+Location of walkthrough can be found here https://drive.google.com/file/d/1BtISfQ0l8EuSFqbt8CXZJNvac1GJ87Vm/view?usp=sharing
+
+## Repository
+
+https://github.com/Jeremymcg88/README-Generator

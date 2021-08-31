@@ -82,7 +82,7 @@ const questions = () => {
 
 {
     type: 'input',
-    message: "Who is contributing",
+    message: "Instructions for contribution:",
     name: 'contributions'
 },
 {
